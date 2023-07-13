@@ -15,7 +15,7 @@ const cb = function(entries, observer) {
 // 監視オプションの宣言
 const option = {
     root: null,
-    rootMargin: "400px 0px",
+    rootMargin: "200px 0px",
     threshold: 1
 }
 
