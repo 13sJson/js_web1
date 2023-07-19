@@ -16,14 +16,14 @@ document.addEventListener('DOMContentLoaded', function() {
             };
         });
     }
-    
+
     // observe監視関数実行条件オプションの宣言
     options = {
         root: null,
         rootmargin: "0px",
         threshold: [0, 0.5, 1]
     }
-    
+
     // スクロール監視クラスのインスタンス生成
     const observer = new IntersectionObserver(cb, options);
     

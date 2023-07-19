@@ -1,0 +1,38 @@
+html {
+  font-family: "Teko", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  position: relative;
+  height: 80vh;
+  background-color: teal;
+}
+section:nth-child(2) {
+  background-color: mediumvioletred;
+}
+section:nth-child(3) {
+  background-color: orange;
+}
+
+.tween-animate-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  opacity: 0;
+  font-size: 2em;
+}
+.tween-animate-title.inview {
+  opacity: 1;
+}
+.tween-animate-title.inview .char {
+  display: inline-block;
+}
+.tween-animate-title .char {
+  opacity: 0;
+}/*# sourceMappingURL=style.css.map */
